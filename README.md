@@ -10,7 +10,7 @@
 
 ```
 repo init -u https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git -b twrp-11 --depth=1
-curl -o .repo/local_manifests/manifest_brcm_rpi.xml -L https://raw.githubusercontent.com/twrp-raspberry/android_local_manifest/twrp-11/manifest_brcm_rpi.xml --create-dirs
+curl -o .repo/local_manifests/manifest_brcm_rpi.xml -L https://raw.githubusercontent.com/Samaelson/twrp-raspberry-android_local_manifest/twrp-11/manifest_brcm_rpi.xml --create-dirs
 repo sync
 ```
 
