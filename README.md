@@ -1,4 +1,5 @@
-### Device specific configuration to build TWRP for [Raspberry Pi 4](http://konstakang.com/devices/rpi4/TWRP) and [Raspberry Pi 5](http://konstakang.com/devices/rpi5/TWRP).
+### Device specific configuration to build TWRP for Raspberry Pi 4 and Raspberry Pi 5
+### This is based on [KonstaKang](http://konstakang.com/).
 
 ***
 
@@ -11,6 +12,7 @@
 ```
 repo init -u https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git -b twrp-11 --depth=1
 curl -o .repo/local_manifests/manifest_brcm_rpi.xml -L https://raw.githubusercontent.com/Samaelson/twrp-raspberry-android_local_manifest/twrp-11/manifest_brcm_rpi.xml --create-dirs
+raw.githubusercontent.com/Samaelson/twrp-raspberry-android_local_manifest/twrp-11/manifest_brcm_rpi.xml) --create-dirs
 repo sync
 ```
 
